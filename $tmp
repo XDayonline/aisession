@@ -1,0 +1,6 @@
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+Write-Host "Culture: français (France)"
+$ts = '2026-06-02T08:48:59.042Z'
+$d = [DateTime]::Parse($ts)
+Write-Host "ISO parse: "
+Write-Host "yyyy-MM-dd HH:mm: "

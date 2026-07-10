@@ -1,0 +1,20 @@
+# Temp files
+*.tmp
+*.log
+$tmp/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Export artifacts
+session-ses_*.json
+session-ses_*.md
+
+# OS
+Thumbs.db
+.DS_Store
